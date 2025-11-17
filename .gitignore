@@ -36,6 +36,7 @@ wheels/
 # IDE
 .vscode/
 .idea/
+.claude/
 *.swp
 *.swo
 *~
@@ -43,3 +44,70 @@ wheels/
 # OS
 .DS_Store
 Thumbs.db
+
+# Devrel demos
+devrel-demos-main/
+devrel-demos-main.zip
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.db-journal
+*.sql
+*.sql.gz
+
+# Lock files
+uv.lock
+poetry.lock
+package-lock.json
+yarn.lock
+Pipfile.lock
+composer.lock
+Gemfile.lock
+Cargo.lock
+go.sum
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.ico
+*.webp
+*.svg
+*.heic
+*.heif
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.gz
+
+# Session files
+*.session
+sessions/
+*.cache
+.cache/
